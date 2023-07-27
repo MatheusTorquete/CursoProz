@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário - Aula 09</title>
+</head>
+<body>
+    <h1>Formulário de cadastro</h1>
+    <!--- criação de formulário-->
+    <form action="">
+        <label for="username">Digite seu nome</label>
+        <input id="username" type="text" name="username">
+        <br>
+        <label for="email">Digite seu email</label>
+        <input id="email" type="text" name="email">
+        <br>
+        <label for="password">Digite sua senha</label>
+        <input id="password" type="password" name="password">
+        <br>
+        <label for="telefone">Digite seu telefone</label>
+        <input id="telefone" type="tel" name="telefone">
+        <br>
+        <label for="data">Digite sua data</label>
+        <input id="data" type="date" name="data">
+        <br>
+        
+
+        <!-- radio apenas 1 opção colocando o mesmo name-->
+        <section>
+            <p>
+                Nacionalidade
+            </p>
+            <input type="radio" name="nacionalidade" id="brasil" value="brasil">
+            <label for="brasil">Brasileiro(a)</label>
+
+            <input type="radio" name="nacionalidade" id="outro" value="outro">
+            <label for="outro">Estrangeiro</label>
+        </section>
+
+        <!-- checkbox mais de 1 opção-->
+        <section>
+            <p>
+                Meio de transporte:
+            </p>
+            <input type="checkbox" name="meio-transporte" id="pe" value="pe">
+            <label for="pe">A pé</label>
+
+            <input type="checkbox" name="meio-transporte" id="bicicleta" value="bicicleta">
+            <label for="bicicleta">Bicicleta</label>
+
+            <input type="radio" name="meio-transporte" id="carro" value="carro">
+            <label for="carro">Carro</label>
+            <br>
+            <label for="submit"></label>
+            <input id="submit" type="submit">
+        </section>
+        
+    </form>
+</body>
+</html>

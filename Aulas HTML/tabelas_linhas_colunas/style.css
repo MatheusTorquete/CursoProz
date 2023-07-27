@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, table th {
+    border: 1px solid gray;
+    padding: 5px;
+    text-align: left;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 14px;
+    margin: 5px;
+}
+
+tfoot td {
+    background: #ddd;
+}
