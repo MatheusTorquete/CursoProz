@@ -1,12 +1,12 @@
-README: Páginas Marco Zero e Outros Pontos Turísticos
+# Páginas Marco Zero e Outros Pontos Turísticos
 
 Este repositório contém dois arquivos HTML que representam páginas relacionadas ao turismo em Recife: index.html (Página Marco Zero) e outros-pontos-turisticos.html (Página Outros Pontos Turísticos). Além disso, há um arquivo CSS style.css que aplica estilos às páginas para melhorar a apresentação visual.
 
-Página Marco Zero:
+## Página Marco Zero:
 
 A página "Marco Zero" apresenta informações sobre um importante ponto turístico de Recife, o Marco Zero, localizado na Praça Rio Branco. Nessa página, o usuário encontra uma imagem de Recife, um texto descritivo sobre o local, informações sobre a autora do texto e uma segunda imagem do Marco Zero.
 
-Estrutura do Projeto:
+## Estrutura do Projeto:
 
 index.html: É o arquivo HTML que contém a estrutura básica da página. Possui cabeçalho (header), seção principal (main), rodapé (footer) e utiliza uma folha de estilos (style.css) para aplicar os estilos.
 
