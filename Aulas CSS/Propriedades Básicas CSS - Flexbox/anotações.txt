@@ -1,0 +1,28 @@
+Propriedadades Básicas CSS.
+
+margin: 10px - espaço externo do elemento right, top,bottom
+
+padding: 50px - espaço interno do elemento right,top,bottom
+
+font-size - tamanho da fonte
+
+font-family - atribuir a familia que será usada
+
+background: gray - cores para o fundo
+
+text-align - alinhar textos - center, right, left
+
+display - definir o tipo de renderização que será usada
+como ficará na tela - absolute, relative, block, flex
+
+
+display: block - a sua largura ocupa todo o espaço
+
+display: inline - tamanho do elemento tamnho do conteudo 
+deixa um do lado do outro
+
+display: fex - elementos dentro de uma caixa
+
+Responsividade
+flexbox - organizar elementos
+justify-content, align-items , flex direction, flex-wrap

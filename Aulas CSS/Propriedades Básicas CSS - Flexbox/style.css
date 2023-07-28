@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Definição das variáveis de cor e tamanho da fonte */
+:root {
+  font-size: 62.5%; /* Define o tamanho da fonte base em 10px para facilitar cálculos */
+  --nav-bg-color: #121212; /* Cor de fundo da navegação */
+  --nav-text-color: white; /* Cor do texto da navegação */
+  --button-bg-color: #0052CE; /* Cor de fundo do botão */
+  --button-text-color: white; /* Cor do texto do botão */
+}
+
+/* Estilos gerais do corpo da página */
+body {
+  font-size: 1.6rem; /* Define o tamanho da fonte para 16px */
+  font-family: 'Roboto', sans-serif; /* Define a fonte padrão como Roboto */
+}
+
+/* Estilos para links */
+a {
+  text-decoration: none; /* Remove a decoração de sublinhado dos links */
+}
+
+/* Estilos para os botões */
+.button {
+  display: inline-flex; /* Cria um container flexível para o botão */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  align-items: center; /* Centraliza o conteúdo verticalmente */
+
+  padding: 1rem 1.6rem; /* Define o preenchimento interno do botão */
+
+  background: var(--button-bg-color); /* Define a cor de fundo do botão */
+  border-radius: .8rem; /* Define o raio do canto arredondado do botão */
+
+  color: var(--button-text-color); /* Define a cor do texto do botão */
+}
+
+/* Estilos para a navegação */
+nav {
+    display: flex; /* Cria um container flexível para a navegação */
+    justify-content: space-between; /* Distribui o espaço igualmente entre os itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+
+    background-color: var(--nav-bg-color); /* Define a cor de fundo da navegação */
+    color: var(--nav-text-color); /* Define a cor do texto da navegação */
+    height: 6rem; /* Define a altura da navegação */
+
+    padding: 0 2.4rem; /* Define o preenchimento interno da navegação */
+}
+
+ul {
+    display: flex; /* Cria um container flexível para a lista de itens */
+    align-items: center; /* Centraliza os itens verticalmente */
+    list-style: none; /* Remove a estilização padrão da lista */
+    gap: 3rem; /* Define o espaçamento horizontal entre os itens da lista */
+}
