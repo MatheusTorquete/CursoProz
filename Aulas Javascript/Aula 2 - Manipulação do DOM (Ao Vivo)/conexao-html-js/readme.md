@@ -1,6 +1,4 @@
-# README.md
-
-## Introdução
+# Introdução
 Este projeto contém uma página HTML básica que inclui um cabeçalho, um menu de navegação, uma seção de posts, um formulário de comentários e um rodapé. 
 O arquivo `style.css` contém a estilização da página, enquanto o arquivo `script.js` possui um código JavaScript que interage com elementos da página.
 
