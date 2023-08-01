@@ -1,0 +1,4 @@
+InnerText - retorna o texto sem formatação
+e sem elementos HTML
+
+innerHTML - retorna o texto com formatação e com elementos HTML
