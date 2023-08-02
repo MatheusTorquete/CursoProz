@@ -1,6 +1,7 @@
 # Validação de Formulário
 
-Este projeto consiste em um formulário de cadastro desenvolvido com HTML, CSS e JavaScript. O objetivo é realizar validações nos campos de entrada do formulário e fornecer feedback visual ao usuário indicando se os dados inseridos são válidos ou não.
+Este projeto consiste em um formulário de cadastro desenvolvido com HTML, CSS e JavaScript. 
+O objetivo é realizar validações nos campos de entrada do formulário e fornecer feedback visual ao usuário indicando se os dados inseridos são válidos ou não.
 
 ## Funcionamento em JavaScript
 
@@ -8,7 +9,8 @@ O JavaScript é responsável por realizar as seguintes funcionalidades:
 
 ### Exibição do Popup de Campo Obrigatório
 
-- Ao clicar no campo de entrada do "Username", o JavaScript adiciona uma classe chamada "required-popup" ao rótulo (label) associado a esse campo. Essa classe é responsável por criar um popup ao lado do rótulo, informando que o campo é obrigatório.
+- Ao clicar no campo de entrada do "Username", o JavaScript adiciona uma classe chamada "required-popup" ao rótulo (label) associado a esse campo.
+- Essa classe é responsável por criar um popup ao lado do rótulo, informando que o campo é obrigatório.
 
 ### Ocultação do Popup de Campo Obrigatório
 
