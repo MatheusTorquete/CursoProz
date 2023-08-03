@@ -1,4 +1,4 @@
-#Manipulando listas de classes
+# Manipulando listas de classes
 
 Este projeto demonstra como manipular listas de classes de elementos HTML usando JavaScript. 
 A página contém um único elemento `<div>` com a classe "borda-azul" inicialmente definida no arquivo CSS.
