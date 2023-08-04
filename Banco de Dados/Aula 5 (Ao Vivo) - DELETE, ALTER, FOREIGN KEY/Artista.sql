@@ -1,0 +1,4 @@
+CREATE TABLE artista (
+	ID SERIAL PRIMARY KEY,
+  	nome VARCHAR UNIQUE
+)

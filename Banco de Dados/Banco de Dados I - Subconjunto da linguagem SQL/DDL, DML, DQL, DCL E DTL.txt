@@ -1,0 +1,33 @@
+DDL é a responsável pela definição dos dados. 
+Seus principais comandos são: create, alter e drop;
+Exemplo:
+CREATE DATABASE curso_computacao;
+Exemplo:
+USE curso_computacao;
+Exemplo: 
+ALTER TABLE professores CHANGE COLUMN nome nome_prof varchar(45) not null; 
+Exemplo:
+DROP TABLE nome_da_tabela;
+
+
+DML é  a responsável pela manipulação dos dados. 
+Seus principais comandos são: insert, update e delete;
+INSERT INTO professores (id, nome_prof, salario, trilha) VALUES (1, 'Kelvin', 4000, 'Banco de dados distribuídos');
+INSERT INTO professores (id, nome_prof, salario, trilha) VALUES (2, 'Johny', 3400, 'Java1');
+Para excluir os dados de um professor com id = 4, observe o exemplo:
+DELETE FROM professores WHERE id = 4;
+UPDATE professores SET salario = salario * 1.1 WHERE id = 1;
+
+DQL é a linguagem de consulta de dados. 
+Seu principal comando é o select; 
+Exemplo:
+SELECT * FROM professores; 
+Exemplo:
+SELECT * FROM professores WHERE salario > 4000;
+
+
+DCL é a responsável pelo controle dos dados. 
+Seus principais comandos são: grant e revoke;
+
+DTL é a linguagem de transação de dados. 
+Seus principais comandos são: start transaction, commit e rollback.

@@ -1,0 +1,68 @@
+O SGBD é um conjunto de aplicações que possibilita a manipulação e a criação de bancos de dados. 
+
+ 
+
+Ele tem a função de manter os dados com uma descrição completa e se responsabiliza pela forma como eles são armazenados.
+
+
+As principais características do SGBD são: 
+
+gerenciar grandes volumes de dados;
+
+eliminar a redundância e a inconsistência de dados;
+
+facilitar o armazenamento e acesso aos dados;
+
+garantir múltiplos acessos ao banco;
+
+garantir segurança aos dados; e
+
+garantir a integridade dos dados.
+
+Outras vantagens do SGBD são:
+
+compartilhamento de dados;
+
+restrição ao acesso não autorizado;
+
+representação de relacionamentos complexos entre dados;
+
+padronização, flexibilidade e redução de tempo do desenvolvimento de aplicações;
+
+disponibilidade de informações atualizadas; e
+
+economia de escala.
+
+
+Já as desvantagens são:
+
+alto custo;
+
+gerenciamento;
+
+manutenção.
+
+Deve-se analisar se há a necessidade de adotar o SGBD em uma empresa pequena, já que é preciso adquirir outros softwares de alto custo para serem implementados.
+
+
+
+Arquitetura cliente-servidor 
+O processamento é dividido entre dois sistemas, reduzindo o tráfego na rede.
+
+
+É uma arquitetura bastante popular, onde o cliente pode solicitar um determinado serviço para o servidor, e enquanto o servidor trabalha para encontrar o dado solicitado, o cliente está livre para realizar outras tarefas.
+
+ 
+
+Funciona com o envio de solicitações, o cliente solicita um dado, e o servidor lhe retorna o dado solicitado, através de um hardware, um computador por exemplo.
+
+
+Banco de dados distribuídos 
+
+São necessários diversos servidores para distribuir as informações.
+
+Arquiteturas do SGBD
+
+
+
+Os bancos de dados distribuídos recebem e distribuem informações para diversas aplicações.

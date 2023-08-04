@@ -1,0 +1,11 @@
+Normalização é para evitar dados duplicados, anomalias
+Perfomance, Reparos futuros
+
+Inserção dos dados
+quando um registro na tabela é inserido sem que o outro esteja disponível 
+
+Exclusão - ao excluir um registro de uma tabela, que afete outra tabela
+
+Alterações - que registro modificado, necessite que também seja alterado em outra tabela 
+
+

@@ -1,0 +1,5 @@
+CREATE TABLE musica (
+	ID SERIAL PRIMARY KEY,
+  	nome VARCHAR NOT NULL
+)
+

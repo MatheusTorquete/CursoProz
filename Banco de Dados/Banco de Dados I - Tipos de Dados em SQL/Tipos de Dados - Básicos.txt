@@ -1,0 +1,18 @@
+TEXTOS
+char - tamanho fixo de 8.000
+varchar - tamanho variavel de até 8k caracters
+text - tamanho variavel de até 2gb
+
+NUMBER
+tinyint - 0 a 255
+smallint -32.768 a 32.767
+int -2.147.483.648 a 2.14.74.83.647
+float - numero flutuante . 1,79 a 179+308
+real - numero flutuante 3.40 + 38 a 3.40 + 38
+
+DATE
+time -tempo em formato HH:MM:SS
+date - datas em formato AAAA-MM-DD
+DATETIME - data e tempo em formato AAAA-MM-DD-HH:MM:SS
+TIMESTAMP - armazena um único numero que é atualizado
+sempre a linha é modificada ou criada

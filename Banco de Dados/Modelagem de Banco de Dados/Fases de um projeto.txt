@@ -1,0 +1,50 @@
+Para entender as fases de um projeto de banco de dados, imagine um ciclo com várias etapas, em que cada uma delas é criada a partir da anterior.
+
+ 
+
+A primeira etapa desse projeto consiste em reunir dados e regras relevantes para a concepção do minimundo, que se trata da apresentação abstrata de uma pequena parte do mundo real. Depois, inicia-se a engenharia de requisitos.
+
+ 
+
+Já a modelagem de dados, etapa também usada no desenvolvimento de um banco de dados, consiste em projeto conceitual, mapeamento  dos conceitos, projeto lógico e projeto físico, que é a fase estrutural do banco de dados.
+
+
+
+
+A análise de requisitos é a fase inicial do desenvolvimento do projeto. Nela, é realizada a identificação dos requisitos que constam em um banco de dados. Entrevistas são feitas e o minimundo é desenvolvido com a descrição textual geral do projeto. 
+
+ 
+
+As regras de negócios desse documento devem ser identificadas para que as informações sejam bem executadas, pois informações erradas afetam todo o projeto.
+
+
+
+O projeto conceitual tem base nas informações coletadas pela análise de requisitos. Assim, um esquema é gerado, utilizando um modelo de dados conceitual de alto nível, o Modelo Entidade-Relacionamento (MER). Esse modelo é simplificado para aproximar a composição dos bancos de dados aos usuários, facilitando a compreensão das informações. Por isso, a representação dos dados armazenados não é tão relevante.
+
+
+O MER é representado através de diagramas. As entidades são retângulos, os atributos são elipses e os relacionamentos são losangos. Nesta etapa, os três tipos de relacionamentos de entidades são fundamentais, sendo delas:
+
+um para um (1, 1);
+
+um para muitos (1, n) ou muitos para um ou (n, 1);
+
+muitos para muitos (n, n).
+
+
+
+A entidade pode ser definida como um objeto do mundo real, concreto ou abstrato, com existência independente.
+
+Os atributos compõem um conjunto particular de propriedades atreladas à entidade.
+
+
+Eles podem ser classificados como:
+
+Atributo simples - não pode ser subdividido;
+
+Atributo composto - pode ser dividido em diversas partes, com significados independentes entre si;
+
+Atributo monovalorado - ou simplesmente valorado, só assume um valor em uma determinada instância;
+
+Atributo multivalorado - pode assumir diversos valores em uma mesma instância;
+
+Atributo derivado - é gerado a partir de outro atributo. 

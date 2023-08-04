@@ -1,0 +1,32 @@
+CREATE TABLE teste (
+  texto VARCHAR(8)
+)
+
+
+CREATE TABLE teste (
+  texto VARCHAR(8),
+  num_inteiro INT,
+  num_decimal FLOAT,
+  valor_bool BOOLEAN
+)
+
+CREATE TABLE pessoa (
+  nome VARCHAR(30) NOT NULL
+)
+
+PRIMARY KEY
+CREATE TABLE pessoa (
+  pessoa_id INT PRIMARY KEY,
+  nome VARCHAR(8) Not NULL
+)
+
+
+Para inserir o nome de uma pessoa na tabela, execute os seguintes comandos no ambiente SQL:
+
+INSERT INTO pessoa (nome) VALUES ('João');
+
+ 
+
+Já para selecionar a tabela pessoa e verificar seus dados:
+
+SELECT * FROM pessoa;

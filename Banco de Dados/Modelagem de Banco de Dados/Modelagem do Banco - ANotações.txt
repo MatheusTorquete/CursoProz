@@ -1,0 +1,38 @@
+Duas etapas
+
+Análise de Requisitos
+identificar os dados
+descartas os não necessários
+
+
+Modelagem
+diagrama entidade relacionamento
+DER - apresenta graficamente
+
+
+MER - separar as informações necessárias para a construção
+Entidades - Retangulo
+Atributos - Eclipse
+Relacionamentos - Losangulos
+
+Identificar quem são as entidades
+Lógica - Disciplina 
+ou 
+Física - Aluno
+
+Tipos de Relacionamentos
+Um Para Um - uma unidade da outra
+Um para Muitos - uma entidade referencia varias da outra
+Muitos para Muitos - varias unidades 
+
+
+Atributos
+Descritivas - nome, cor
+Nominativas - nome código numero
+Referencias - cpf, etc
+
+
+Estrutura 
+Simples - apenas 1 
+Composta - Várias atributos para compor
+
