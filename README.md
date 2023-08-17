@@ -123,7 +123,7 @@ console.log(nome); // Saída: "João"
 ```
 
 
-## Banco de Dados
+# Banco de Dados
 
 ## JOINs
 
