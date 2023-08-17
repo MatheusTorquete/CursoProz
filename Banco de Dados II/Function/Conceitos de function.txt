@@ -1,0 +1,56 @@
+A rotina é composta por tarefas inevitáveis, como tirar o lixo de casa e forrar a cama.
+
+ 
+
+Assim como nós, os banco de dados também tem rotinas importantes que são identificadas por um nome definido, que são: função, ou function, e procedimento, ou procedure.
+
+
+A função é uma rotina armazenada. Ela executa uma determinada ação, cujo resultado retorna algum valor.
+
+ 
+
+Para criar uma função, é necessário entender como ela funciona, ou seja, compreender a sua sintaxe básica.
+
+ 
+
+A sintaxe é:
+
+CREATE FUNCTION nome_função (parâmetros)
+
+RETURNS tipos_dados
+
+Código_da_funcao;
+
+ 
+
+A seguir, cada trecho do código será explicado detalhadamente
+
+
+
+Observe o exemplo de como criar uma função: 
+
+CREATE FUNCTION teste (a DECIMAL(4,2), b INT)
+
+ RETURNS int
+
+ DETERMINISTIC
+
+ return a * b;
+
+
+Em seguida, declaramos se a função é deterministic (determinística) ou not deterministic (não determinística). Uma função é determinística se produzir o mesmo resultado para os mesmos parâmetros de entrada. Caso contrário, ela é não determinística.
+
+ 
+
+O return informa qual é o valor da função que deve ser retornado. Nesse exemplo, será o resultado da multiplicação dos parâmetros a e b.
+
+
+Se quisermos excluir uma função, utilizamos o comando:
+
+DROP FUNCTION nome_função;
+
+ 
+
+Para excluir a nossa função teste utilizada anteriormente, podemos utilizar a seguinte linha de comando:
+
+DROP FUNCTION teste;

@@ -1,0 +1,43 @@
+Um procedimento, ou procedure, é uma instrução ou um grupo de instruções organizadas para executar tarefas. Ele pode ser usado através de uma simples invocação, que executa uma série de outros comandos.
+
+A seguir, veremos como criar a estrutura de um procedure com cada trecho explicado detalhadamente.
+
+ 
+
+A sintaxe é:
+
+CREATE PROCEDURE nome_procedimento (parâmetros)
+
+declarações;
+
+
+Aqui, temos a criação do procedure saberPreço. Entre os parênteses, temos a variável alimento, um parâmetro do tipo smallint, que são números inteiros.
+
+Entendendo um procedure
+
+CREATE PROCEDURE saberPreço (alimento smallint)
+
+select concat('O valor é ', preço) AS preços
+
+from tabela_alimento
+
+where id_alimento = alimento;
+
+Os dados de alimentos e preço estão na tabela de nome tabela_alimento.
+
+
+Para excluir um procedimento, basta executar:
+
+DROP PROCEDURE nome_procedimento;
+
+ 
+
+Dessa forma, para excluir o procedimento que criamos, utilizaremos o comando:
+
+DROP PROCEDURE saberPreço;
+
+As principais diferenças entre eles são que a function sempre retorna um valor, não necessita de parâmetros de entrada e saída e pode ser chamada dentro de um procedimento.
+
+ 
+
+Já o procedure nem sempre retorna um valor, pois é opcional, necessita de parâmetros de entrada e saída e não pode ser chamado dentro de uma função.

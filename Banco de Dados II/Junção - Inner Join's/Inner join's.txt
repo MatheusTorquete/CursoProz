@@ -1,0 +1,30 @@
+O objetivo das junções entre tabelas é relacioná-las a partir de regras específicas.
+
+ 
+
+Por exemplo, para fazer consultas em um banco de dados, é necessário relacionar tabelas.
+
+
+As junções entre tabelas podem ser realizadas a partir de SQL Joins, como: Inner Join, Left Join, Right Join, Outer Join etc.
+
+
+Para que haja a junção de tabelas, é necessário que o banco de dados tenha pelo menos duas tabelas criadas.
+
+ 
+
+Para exemplificar isso, vamos criar um banco de dados chamado CursoDeProgramação. Nele, criaremos duas tabelas, sendo uma denominada disciplinas e outra, alunos.
+
+
+Para criar o banco de dados, usaremos o comando:
+
+ 
+
+create database CursoDeProgramacao;
+
+ 
+
+Para usá-lo, iremos executar:
+
+ 
+
+Use CursoDeProgramacao;

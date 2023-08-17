@@ -1,0 +1,51 @@
+Triggers - Gatilho
+Chamada automaticamente, quando o evento ocorre.
+
+Exemplo - Quando uma linha é chamada ou atualizada.
+
+DDL - Triggers acionados quando afetam a estrutura
+Alter Remove ou Insert
+
+
+DML - Linguagem de Manipulação de Dados
+Insert, Exclusão ou Atualização 
+
+For ou After
+Insert
+Update
+Delete
+
+Esses são executados assim que algum comado acima for
+
+
+Instead Of
+Os próprios triggers são executados
+Assume o papel da instrução
+Referencial entre banco de dados
+
+
+Construct Trigger
+Novo gatinho, quando um evento é acionado, insert ou update
+
+
+Exemplo:
+delimiter //
+CREATE TRIGGER nome_trigger
+AFTER INSERT ON usuario_voto
+FOR EACH ROW
+BEGIN
+Aqui é inserido a estrutura do trigger
+END//
+delimiter;
+
+Criação de Trigger Insert
+DELIMITER $$
+CREATE TRIGGER inserir_dados
+AFTER INSERT
+ON pessoas FOR EACH ROW
+BEGIN
+	IF NEW.dataNasc IS NULL THEN
+		INSERT INTO lembrete(pessoaId, mensagem)
+		VALUES(new.id, CONCAT(Oi, 'NEW.name, ',atualize sua data de nascimento'));
+END IF;
+END $$

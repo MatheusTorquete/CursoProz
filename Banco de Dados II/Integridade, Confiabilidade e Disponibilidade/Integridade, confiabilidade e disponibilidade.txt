@@ -1,0 +1,32 @@
+A integridade é a garantia de que os dados alterados no sistema serão retidos em sua forma original.
+
+ 
+
+Esse componente está intrinsecamente relacionado ao controle das modificações do sistema e à preservação total do ciclo de vida dos dados, ou seja, na origem, manutenção e destruição.
+
+
+A disponibilidade garante que os dados estejam sempre disponíveis para fins legais.
+
+
+Portanto, apenas os indivíduos que foram devidamente aprovados terão acesso ao sistema em qualquer momento.
+
+
+A confiabilidade exige a imposição de restrições sobre quem tem acesso aos dados em questão.
+
+ 
+
+Então, apenas indivíduos confiáveis e com uma necessidade legítima de alterar os dados terão acesso a eles, se necessário.
+
+Garantir a segurança do banco
+
+Para garantir isso, é necessário prestar atenção às evoluções dos sistemas de segurança, como:
+
+realizar backups de dados periódicos;
+
+implementar a criptografia no banco;
+
+ter políticas de senhas fortes.
+
+​
+
+Dessa forma, evitamos que pessoas indevidas possam acessar informações importantes e confidenciais do banco de dados.

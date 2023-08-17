@@ -1,0 +1,98 @@
+A chave primária, ou primary key (PK), determina, 
+exclusivamente, um identificador por tabela. 
+Isso significa que a informação presente nela não pode ser repetida.
+
+ 
+
+Além disso, uma chave primária não pode ser nula, 
+ou seja, o campo da tabela não pode ficar vazio, 
+precisa sempre conter a chave.
+
+
+A chave primária é categorizada em dois tipos: simples e composta. A simples é constituída por um único campo na tabela, que não pode ter mais de um registro com o mesmo valor.
+
+ 
+
+Já a composta é formada por mais de um campo, que pode repetir valores, mas sem replicar suas combinações.
+
+
+Essa tabela tem apenas um campo de chave primária, o CPF de cada pessoa. Portanto, é uma chave primária simples.
+
+Exemplo de chave primária simples
+
+
+CPF:PK	NOME	ENDEREÇO
+123.456.789-11	Carol Dias	Rua XV, 015
+120.455.789-12	Carlos Souza	Rua do Barbalho, 56
+121.454.789-13	Carol Queiroz	Rua XV, 212
+Pessoa
+
+Vale destacar que uma tabela precisa de um identificador para acessarmos os dados relacionados à chave. Nessa tabela, que armazena dados de pessoas, cada CPF é uma chave primária. Pessoas podem ter o mesmo nome, podem morar na mesma rua, mas o CPF é algo único, ou seja, cada pessoa tem o seu. Nesse caso, por meio do CPF, podemos ter acesso ao restante dos dados de cada pessoa.
+
+
+NUMERO_CONTA: PK	NUMERO_AGENCIA: PK	SALDO
+56	1	R$ 200,00
+08	2	R$ 1.300,00
+56	2	R$ 800,00
+25	1	R$ 5.450,00
+CONTA BANCÁRIA
+
+Nessa tabela, podemos ter mais de uma conta bancária com o mesmo saldo, mais de uma conta bancária com o mesmo número ou mais de uma conta bancária na mesma agência. O que não é possível é ter mais de uma conta com o mesmo número na mesma agência simultaneamente. Observem que a primeira e a terceira conta possuem números de contas iguais mas que são de agências diferentes, e que também que cada agência possui mais de uma conta. Nessa tabela, isso não é um problema, pois os pares das chaves primárias não são iguais. O que não poderia ocorrer é, por exemplo, duas contas iguais na mesma agência.
+
+
+Exemplo de chave estrangeira
+
+O ID é a chave estrangeira que foi adquirida da tabela departamento. Por meio dela, conseguimos saber em qual departamento cada funcionário trabalha.
+
+CPF: PK	NOME	ID: FK
+123.543.333-65	Ana Silva	3
+903.222.222-22	Otávio Sales	4
+302.555.555-55	Lia Alves	1
+498.000.000-00	Paty Soares	2
+783.444.444-44	Rian Tavares	1
+FUNCIONÁRIO
+
+ID: PK	NOME_DEPARTAMENTO
+1	TI
+2	Marketing
+3	Finanças
+4	Serviços Gerais
+
+
+
+
+Exemplo de chave estrangeira
+
+Antes de ser chave estrangeira, ela é uma chave primária em sua tabela de origem. Quando passa a ser referenciada em uma outra tabela, ela passa a ser chave estrangeira.  Nesse caso, o ID é a chave primária da tabela DEPARTAMENTO, mas, quando é referenciada na tabela FUNCIONÁRIOS, passa a ser uma chave estrangeira.
+
+CPF: PK	NOME	ID: FK
+123.543.333-65	Ana Silva	3
+903.222.222-22	Otávio Sales	4
+302.555.555-55	Lia Alves	1
+498.000.000-00	Paty Soares	2
+783.444.444-44	Rian Tavares	1
+FUNCIONÁRIO
+
+ID: PK	NOME_DEPARTAMENTO
+1	TI
+2	Marketing
+3	Finanças
+4	Serviços Gerais
+DEPARTAMENTO
+
+
+
+
+5 . 2
+
+Exemplo de chave estrangeira Antes de ser chave estrangeira, ela é uma chave primária em sua tabela de origem. 
+Quando passa a ser referenciada em uma outra tabela, ela passa a ser chave estrangeira.  
+Nesse caso, o ID é a chave primária da tabela DEPARTAMENTO, mas, quando é referenciada na tabela 
+FUNCIONÁRIOS, 
+passa a ser uma chave estrangeira. 
+CPF: PK 
+NOME ID: FK 
+123.543.333-65 
+Ana Silva 3 903.222.222-22 Otávio Sales 4 302.555.555-55 Lia Alves 1 498.000.000-00 Paty Soares 2 783.444.444-44 Rian Tavares 1 
+FUNCIONÁRIO ID: PK NOME_DEPARTAMENTO 1 TI 2 Marketing 3 Finanças 4 Serviços Gerais DEPARTAMENTO
+
